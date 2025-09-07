@@ -1,17 +1,26 @@
 # TeXmacs Environment
 
-Fedora Linux 42ベースのWSLディストリビューションで，TeXmacsがインストールされています．また，日本語環境も整えており，すぐにTeXmacsで日本語文書を作成できます．
+WSLのFedora Linux 42ディストリビューションに，最新のTeXmacsをインストールしたものです．最低限の日本語環境を整えているため，TeXmacsを利用した日本語文書の作成が可能です．
 
-# インストール
+# Installation
 
-```shell
-curl -OL https://github.com/Goat-JP/texmacs-env/releases/download/v1.0.0/texmacs-env.tar.gz
-wsl --install --from-file texmacs-env.tar.gz
-```
+1. リリースから`texmacs-env.tar.gz`をダウンロードする
 
-# アンインストール
+   ```powershell
+   curl.exe -OL https://github.com/Goat-JP/texmacs-env/releases/download/v1.0.0/texmacs-env.tar.gz
+   ```
 
-```shell
+2. 以下のいずれかの方法でインストールする
+   - `texmacs-env.tar.gz`を`texmacs-env.wsl`にリネームして，それをダブルクリック
+   - 次のコマンドを実行
+
+     ```powershell
+     wsl --install --from-file texmacs-env.tar.gz
+     ```
+
+# Uninstallation
+
+```powershell
 wsl --unregister texmacs-env
 ```
 
