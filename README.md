@@ -7,7 +7,7 @@ WSLのFedora Linux 42ディストリビューションに，最新のTeXmacsを�
 1. リリースから`texmacs-env.tar.gz`をダウンロードする
 
    ```powershell
-   curl.exe -OL https://github.com/Goat-JP/texmacs-env/releases/download/v1.0.0/texmacs-env.tar.gz
+   curl.exe -OL https://github.com/Goat-JP/texmacs-env/releases/download/v1.0.1/texmacs-env.tar.gz
    ```
 
 2. 以下のいずれかの方法でインストールする
