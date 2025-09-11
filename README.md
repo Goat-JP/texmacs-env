@@ -7,7 +7,7 @@ WSLのディストリビューションに，最新のTeXmacsをインストー�
 1. リリースから`texmacs-env-xxx.tar.gz`をダウンロードする
 
    ```powershell
-   curl.exe -OL https://github.com/Goat-JP/texmacs-env/releases/download/v1.0.1/texmacs-env.tar.gz
+   curl.exe -OL https://github.com/Goat-JP/texmacs-env/releases/download/v1.1.0/texmacs-env-xxx.tar.gz
    ```
 
 2. 以下のいずれかの方法でインストールする
